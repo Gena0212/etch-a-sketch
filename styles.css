@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    max-width: 300px;
+    max-height: 100px;
+    margin: 20px 20px 20px;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+    /*display: inline-block;*/
+    max-height: 300px;
+    max-width: 300px;
+
+    width: 300px;
+    height: 300px;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.gridElement{
+    background-color: #ee82ee;
+    color: antiquewhite;
+    margin: 3px 3px 3px;
+}
